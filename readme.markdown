@@ -42,6 +42,12 @@ Parse the arguments array `args`, passing `opts` to
 An opening `[` in the `args` array creates a new context and a `]` closes a
 context. Contexts may be nested.
 
+## options
+
+Specific to `subarg`, these options will not be forwarded to minimist.
+
+- `forward` recursively forward minimist options to nested contexts.
+
 # install
 
 With [npm](https://npmjs.org) do:
